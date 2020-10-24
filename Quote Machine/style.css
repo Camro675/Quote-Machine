@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+    font-family: -aplle-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu";
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+button {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: #60a3bc;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 24px;
+    margin: 0 0 1.5625em;
+    padding-left: 1em;
+    padding-right: 1em;
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+    content: '';
+}
